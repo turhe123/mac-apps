@@ -1,4 +1,4 @@
-# 98 free, open-source Mac apps
+# 99 free, open-source Mac apps
 
 Native macOS utilities built in Swift and SwiftUI. Every app is free, MIT licensed, runs on macOS 14+, needs no account, sends no telemetry, and does one job well. Each one is a free alternative to a paid utility you may already know.
 
@@ -20,7 +20,7 @@ Native macOS utilities built in Swift and SwiftUI. Every app is free, MIT licens
 - [Focus & Productivity](#focus-productivity) (2)
 - [Presentation & Cursor](#presentation-cursor) (4)
 - [Timers & Reminders](#timers-reminders) (4)
-- [Files & Conversion](#files-conversion) (8)
+- [Files & Conversion](#files-conversion) (9)
 - [Battery & Power](#battery-power) (3)
 - [Developer & Network](#developer-network) (3)
 - [Display & Brightness](#display-brightness) (2)
@@ -205,6 +205,7 @@ Files & Conversion utilities.
 | <img src="https://raw.githubusercontent.com/turhe123/pdf-shrink-drop/main/docs/assets/icon.png" width="28" alt=""> | **[PdfShrinkDrop](https://github.com/turhe123/pdf-shrink-drop)** | Drop big PDFs onto the window or Dock icon and get smaller copies with a size preset and before and after sizes. | PDF Squeezer | [Website](https://turhe123.github.io/pdf-shrink-drop/) · [Download](https://github.com/turhe123/pdf-shrink-drop/releases/latest/download/PdfShrinkDrop-macOS.zip) |
 | <img src="https://raw.githubusercontent.com/turhe123/photo-meta-scrub/main/docs/assets/icon.png" width="28" alt=""> | **[PhotoMetaScrub](https://github.com/turhe123/photo-meta-scrub)** | Drop photos to see their hidden EXIF, GPS and camera data, then strip it all before you share. | Metapho | [Website](https://turhe123.github.io/photo-meta-scrub/) · [Download](https://github.com/turhe123/photo-meta-scrub/releases/latest/download/PhotoMetaScrub-macOS.zip) |
 | <img src="https://raw.githubusercontent.com/turhe123/shot-name-sorter/main/docs/assets/icon.png" width="28" alt=""> | **[ShotNameSorter](https://github.com/turhe123/shot-name-sorter)** | Watches your screenshot folder, reads each new image with OCR, then renames and files it by app and content. | Tidy for Mac | [Website](https://turhe123.github.io/shot-name-sorter/) · [Download](https://github.com/turhe123/shot-name-sorter/releases/latest/download/ShotNameSorter-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/twin-file-sweep/main/docs/assets/icon.png" width="28" alt=""> | **[TwinFileSweep](https://github.com/turhe123/twin-file-sweep)** | Find exact duplicate files in chosen folders and trash the extra copies safely with a clear keep-one preview. | Gemini 2 | [Website](https://turhe123.github.io/twin-file-sweep/) · [Download](https://github.com/turhe123/twin-file-sweep/releases/latest/download/TwinFileSweep-macOS.zip) |
 | <img src="https://raw.githubusercontent.com/turhe123/watch-folder-ocr/main/docs/assets/icon.png" width="28" alt=""> | **[WatchFolderOcr](https://github.com/turhe123/watch-folder-ocr)** | Watch a folder and automatically turn every dropped scan or image into a searchable PDF with a text layer. | OnDevice OCR Pro | [Website](https://turhe123.github.io/watch-folder-ocr/) · [Download](https://github.com/turhe123/watch-folder-ocr/releases/latest/download/WatchFolderOcr-macOS.zip) |
 
 ## Battery & Power
