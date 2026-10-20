@@ -4,6 +4,8 @@ Native macOS utilities built in Swift and SwiftUI. Every app is free, MIT licens
 
 **Browse the gallery with screenshots: [turhe123.github.io/mac-apps](https://turhe123.github.io/mac-apps/)**
 
+**Also: [free, private web tools that run in your browser](https://turhe123.github.io/web-tools/)** — image, PDF, developer and text tools, nothing uploaded.
+
 > Download the `.zip` from each app's Releases page, unzip, and drag the app to Applications. The apps are not notarized yet, so on first launch right-click the app and choose **Open**.
 
 ## Contents
