@@ -1,4 +1,4 @@
-# 60 free, open-source Mac apps
+# 61 free, open-source Mac apps
 
 Native macOS utilities built in Swift and SwiftUI. Every app is free, MIT licensed, runs on macOS 14+, needs no account, sends no telemetry, and does one job well. Each one is a free alternative to a paid utility you may already know.
 
@@ -13,6 +13,7 @@ Native macOS utilities built in Swift and SwiftUI. Every app is free, MIT licens
 - [Window Management](#window-management) (12)
 - [System Monitoring](#system-monitoring) (12)
 - [Audio](#audio) (12)
+- [Font Management](#font-management) (1)
 
 
 ## Menu Bar Utility
@@ -109,6 +110,14 @@ Volume, devices, microphones, noise and sound effects.
 | <img src="https://raw.githubusercontent.com/turhe123/switch-clatter/main/docs/assets/icon.png" width="28" alt=""> | **[SwitchClatter](https://github.com/turhe123/switch-clatter)** | Plays satisfying mechanical keyboard click sounds as you type on any Mac keyboard. | Klack | [Website](https://turhe123.github.io/switch-clatter/) · [Download](https://github.com/turhe123/switch-clatter/releases/latest/download/SwitchClatter-macOS.zip) |
 | <img src="https://raw.githubusercontent.com/turhe123/tap-mixer-bar/main/docs/assets/icon.png" width="28" alt=""> | **[TapMixerBar](https://github.com/turhe123/tap-mixer-bar)** | A menu bar mixer with one volume slider per app playing sound, no virtual audio driver needed. | Fabar | [Website](https://turhe123.github.io/tap-mixer-bar/) · [Download](https://github.com/turhe123/tap-mixer-bar/releases/latest/download/TapMixerBar-macOS.zip) |
 | <img src="https://raw.githubusercontent.com/turhe123/volume-ceiling/main/docs/assets/icon.png" width="28" alt=""> | **[VolumeCeiling](https://github.com/turhe123/volume-ceiling)** | Set a maximum volume for each output device so headphones can never blast your ears. | Hear Volume Limiter | [Website](https://turhe123.github.io/volume-ceiling/) · [Download](https://github.com/turhe123/volume-ceiling/releases/latest/download/VolumeCeiling-macOS.zip) |
+
+## Font Management
+
+Font libraries, previews and activation without a subscription.
+
+| | App | What it does | Free alternative to | Links |
+|---|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/turhe123/font-toggle-shelf/main/docs/assets/icon.png" width="28" alt=""> | **[FontToggleShelf](https://github.com/turhe123/font-toggle-shelf)** | Browse font folders anywhere on disk, preview them with your own text, and switch fonts on or off without a subscription. | RightFont | [Website](https://turhe123.github.io/font-toggle-shelf/) · [Download](https://github.com/turhe123/font-toggle-shelf/releases/latest/download/FontToggleShelf-macOS.zip) |
 
 ## How these were built
 
