@@ -67,12 +67,11 @@ html,body{max-width:100%;overflow-x:hidden}
 @media (max-width:640px){
   header{padding-top:44px}
   .container{padding:0 14px}
-  .toolbar{padding:10px 0}
+  .toolbar{position:static;padding:10px 0;backdrop-filter:none;-webkit-backdrop-filter:none}
   .toolbar-inner{flex-direction:column;align-items:stretch;gap:8px}
   .search{margin-left:0;width:100%;min-width:0;order:-1;font-size:16px}
-  .chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;margin:0 -14px;padding:0 14px 2px}
-  .chips::-webkit-scrollbar{display:none}
-  .chip{flex:none;white-space:nowrap}
+  .chips{flex-wrap:wrap;gap:6px;max-width:100%}
+  .chip{flex:none;white-space:nowrap;max-width:100%;font-size:12.5px;padding:6px 10px}
   section.cat{padding:28px 0 4px}
   section.cat h2{font-size:24px}
   .shot{padding:12px;aspect-ratio:4/3}
