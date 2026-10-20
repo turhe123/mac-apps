@@ -1,4 +1,4 @@
-# 99 free, open-source Mac apps
+# 100 free, open-source Mac apps
 
 Native macOS utilities built in Swift and SwiftUI. Every app is free, MIT licensed, runs on macOS 14+, needs no account, sends no telemetry, and does one job well. Each one is a free alternative to a paid utility you may already know.
 
@@ -21,7 +21,7 @@ Native macOS utilities built in Swift and SwiftUI. Every app is free, MIT licens
 - [Presentation & Cursor](#presentation-cursor) (4)
 - [Timers & Reminders](#timers-reminders) (4)
 - [Files & Conversion](#files-conversion) (9)
-- [Battery & Power](#battery-power) (3)
+- [Battery & Power](#battery-power) (4)
 - [Developer & Network](#developer-network) (3)
 - [Display & Brightness](#display-brightness) (2)
 
@@ -214,6 +214,7 @@ Battery & Power utilities.
 
 | | App | What it does | Free alternative to | Links |
 |---|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/turhe123/accessory-charge-glance/main/docs/assets/icon.png" width="28" alt=""> | **[AccessoryChargeGlance](https://github.com/turhe123/accessory-charge-glance)** | See the battery level of your Magic Mouse, keyboard, trackpad and other Bluetooth gear in the menu bar, with low alerts. | AirBuddy | [Website](https://turhe123.github.io/accessory-charge-glance/) · [Download](https://github.com/turhe123/accessory-charge-glance/releases/latest/download/AccessoryChargeGlance-macOS.zip) |
 | <img src="https://raw.githubusercontent.com/turhe123/battery-health-lens/main/docs/assets/icon.png" width="28" alt=""> | **[BatteryHealthLens](https://github.com/turhe123/battery-health-lens)** | See your battery's cycle count, true capacity and wear in a menu bar popover, with a daily health history. | Battery Health 3 | [Website](https://turhe123.github.io/battery-health-lens/) · [Download](https://github.com/turhe123/battery-health-lens/releases/latest/download/BatteryHealthLens-macOS.zip) |
 | <img src="https://raw.githubusercontent.com/turhe123/charge-level-chime/main/docs/assets/icon.png" width="28" alt=""> | **[ChargeLevelChime](https://github.com/turhe123/charge-level-chime)** | Get a chime and a banner when your battery hits the low or full level you chose, so you plug in or unplug on time. | Battery Charge Sound Alarm | [Website](https://turhe123.github.io/charge-level-chime/) · [Download](https://github.com/turhe123/charge-level-chime/releases/latest/download/ChargeLevelChime-macOS.zip) |
 | <img src="https://raw.githubusercontent.com/turhe123/stay-awake-timer/main/docs/assets/icon.png" width="28" alt=""> | **[StayAwakeTimer](https://github.com/turhe123/stay-awake-timer)** | Keep your Mac awake for a chosen time, until a download ends, or while certain apps run, from the menu bar. | Lungo | [Website](https://turhe123.github.io/stay-awake-timer/) · [Download](https://github.com/turhe123/stay-awake-timer/releases/latest/download/StayAwakeTimer-macOS.zip) |
