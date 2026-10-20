@@ -1,4 +1,4 @@
-# 61 free, open-source Mac apps
+# 62 free, open-source Mac apps
 
 Native macOS utilities built in Swift and SwiftUI. Every app is free, MIT licensed, runs on macOS 14+, needs no account, sends no telemetry, and does one job well. Each one is a free alternative to a paid utility you may already know.
 
@@ -14,6 +14,7 @@ Native macOS utilities built in Swift and SwiftUI. Every app is free, MIT licens
 - [System Monitoring](#system-monitoring) (12)
 - [Audio](#audio) (12)
 - [Font Management](#font-management) (1)
+- [Input and Gestures](#input-and-gestures) (1)
 
 
 ## Menu Bar Utility
@@ -118,6 +119,14 @@ Font libraries, previews and activation without a subscription.
 | | App | What it does | Free alternative to | Links |
 |---|---|---|---|---|
 | <img src="https://raw.githubusercontent.com/turhe123/font-toggle-shelf/main/docs/assets/icon.png" width="28" alt=""> | **[FontToggleShelf](https://github.com/turhe123/font-toggle-shelf)** | Browse font folders anywhere on disk, preview them with your own text, and switch fonts on or off without a subscription. | RightFont | [Website](https://turhe123.github.io/font-toggle-shelf/) · [Download](https://github.com/turhe123/font-toggle-shelf/releases/latest/download/FontToggleShelf-macOS.zip) |
+
+## Input and Gestures
+
+Trackpad gestures, keys and input remapping.
+
+| | App | What it does | Free alternative to | Links |
+|---|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/turhe123/trackpad-gesture-map/main/docs/assets/icon.png" width="28" alt=""> | **[TrackpadGestureMap](https://github.com/turhe123/trackpad-gesture-map)** | Map three and four finger trackpad swipes, taps and pinches to shortcuts, apps and actions, with per-app overrides. | BetterTouchTool | [Website](https://turhe123.github.io/trackpad-gesture-map/) · [Download](https://github.com/turhe123/trackpad-gesture-map/releases/latest/download/TrackpadGestureMap-macOS.zip) |
 
 ## How these were built
 
