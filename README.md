@@ -1,4 +1,4 @@
-# 95 free, open-source Mac apps
+# 98 free, open-source Mac apps
 
 Native macOS utilities built in Swift and SwiftUI. Every app is free, MIT licensed, runs on macOS 14+, needs no account, sends no telemetry, and does one job well. Each one is a free alternative to a paid utility you may already know.
 
@@ -19,10 +19,10 @@ Native macOS utilities built in Swift and SwiftUI. Every app is free, MIT licens
 - [Screen & OCR](#screen-ocr) (6)
 - [Focus & Productivity](#focus-productivity) (2)
 - [Presentation & Cursor](#presentation-cursor) (4)
-- [Timers & Reminders](#timers-reminders) (3)
-- [Files & Conversion](#files-conversion) (7)
+- [Timers & Reminders](#timers-reminders) (4)
+- [Files & Conversion](#files-conversion) (8)
 - [Battery & Power](#battery-power) (3)
-- [Developer & Network](#developer-network) (2)
+- [Developer & Network](#developer-network) (3)
 - [Display & Brightness](#display-brightness) (2)
 
 
@@ -188,6 +188,7 @@ Timers & Reminders utilities.
 | | App | What it does | Free alternative to | Links |
 |---|---|---|---|---|
 | <img src="https://raw.githubusercontent.com/turhe123/break-nudge-timer/main/docs/assets/icon.png" width="28" alt=""> | **[BreakNudgeTimer](https://github.com/turhe123/break-nudge-timer)** | Gentle micro-breaks and long breaks that dim your screen, count down and remind you to rest your eyes. | Time Out | [Website](https://turhe123.github.io/break-nudge-timer/) · [Download](https://github.com/turhe123/break-nudge-timer/releases/latest/download/BreakNudgeTimer-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/nag-reminder-bar/main/docs/assets/icon.png" width="28" alt=""> | **[NagReminderBar](https://github.com/turhe123/nag-reminder-bar)** | Type a quick reminder in plain words and it keeps nudging you every few minutes until you mark it done. | Due | [Website](https://turhe123.github.io/nag-reminder-bar/) · [Download](https://github.com/turhe123/nag-reminder-bar/releases/latest/download/NagReminderBar-macOS.zip) |
 | <img src="https://raw.githubusercontent.com/turhe123/pomodoro-pace/main/docs/assets/icon.png" width="28" alt=""> | **[PomodoroPace](https://github.com/turhe123/pomodoro-pace)** | A menu bar pomodoro timer with task labels, daily session counts and a gentle chime when each block ends. | Be Focused Pro | [Website](https://turhe123.github.io/pomodoro-pace/) · [Download](https://github.com/turhe123/pomodoro-pace/releases/latest/download/PomodoroPace-macOS.zip) |
 | <img src="https://raw.githubusercontent.com/turhe123/zone-clock-bar/main/docs/assets/icon.png" width="28" alt=""> | **[ZoneClockBar](https://github.com/turhe123/zone-clock-bar)** | A menu bar calendar with world clocks, upcoming events and a time-zone slider for planning calls across cities. | Dato | [Website](https://turhe123.github.io/zone-clock-bar/) · [Download](https://github.com/turhe123/zone-clock-bar/releases/latest/download/ZoneClockBar-macOS.zip) |
 
@@ -203,6 +204,7 @@ Files & Conversion utilities.
 | <img src="https://raw.githubusercontent.com/turhe123/drop-media-converter/main/docs/assets/icon.png" width="28" alt=""> | **[DropMediaConverter](https://github.com/turhe123/drop-media-converter)** | Drop videos, audio or images and convert them to common formats with simple presets and a progress list. | Permute | [Website](https://turhe123.github.io/drop-media-converter/) · [Download](https://github.com/turhe123/drop-media-converter/releases/latest/download/DropMediaConverter-macOS.zip) |
 | <img src="https://raw.githubusercontent.com/turhe123/pdf-shrink-drop/main/docs/assets/icon.png" width="28" alt=""> | **[PdfShrinkDrop](https://github.com/turhe123/pdf-shrink-drop)** | Drop big PDFs onto the window or Dock icon and get smaller copies with a size preset and before and after sizes. | PDF Squeezer | [Website](https://turhe123.github.io/pdf-shrink-drop/) · [Download](https://github.com/turhe123/pdf-shrink-drop/releases/latest/download/PdfShrinkDrop-macOS.zip) |
 | <img src="https://raw.githubusercontent.com/turhe123/photo-meta-scrub/main/docs/assets/icon.png" width="28" alt=""> | **[PhotoMetaScrub](https://github.com/turhe123/photo-meta-scrub)** | Drop photos to see their hidden EXIF, GPS and camera data, then strip it all before you share. | Metapho | [Website](https://turhe123.github.io/photo-meta-scrub/) · [Download](https://github.com/turhe123/photo-meta-scrub/releases/latest/download/PhotoMetaScrub-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/shot-name-sorter/main/docs/assets/icon.png" width="28" alt=""> | **[ShotNameSorter](https://github.com/turhe123/shot-name-sorter)** | Watches your screenshot folder, reads each new image with OCR, then renames and files it by app and content. | Tidy for Mac | [Website](https://turhe123.github.io/shot-name-sorter/) · [Download](https://github.com/turhe123/shot-name-sorter/releases/latest/download/ShotNameSorter-macOS.zip) |
 | <img src="https://raw.githubusercontent.com/turhe123/watch-folder-ocr/main/docs/assets/icon.png" width="28" alt=""> | **[WatchFolderOcr](https://github.com/turhe123/watch-folder-ocr)** | Watch a folder and automatically turn every dropped scan or image into a searchable PDF with a text layer. | OnDevice OCR Pro | [Website](https://turhe123.github.io/watch-folder-ocr/) · [Download](https://github.com/turhe123/watch-folder-ocr/releases/latest/download/WatchFolderOcr-macOS.zip) |
 
 ## Battery & Power
@@ -223,6 +225,7 @@ Developer & Network utilities.
 |---|---|---|---|---|
 | <img src="https://raw.githubusercontent.com/turhe123/dev-scrap-toolbox/main/docs/assets/icon.png" width="28" alt=""> | **[DevScrapToolbox](https://github.com/turhe123/dev-scrap-toolbox)** | An offline toolbox of everyday developer converters like JSON, [removed], JWT, hashes and timestamps, fed from your clipboard. | DevUtils | [Website](https://turhe123.github.io/dev-scrap-toolbox/) · [Download](https://github.com/turhe123/dev-scrap-toolbox/releases/latest/download/DevScrapToolbox-macOS.zip) |
 | <img src="https://raw.githubusercontent.com/turhe123/lan-host-scout/main/docs/assets/icon.png" width="28" alt=""> | **[LanHostScout](https://github.com/turhe123/lan-host-scout)** | Scan your local network and list every device with its IP, name, MAC address, vendor hint and open common ports. | LanScan | [Website](https://turhe123.github.io/lan-host-scout/) · [Download](https://github.com/turhe123/lan-host-scout/releases/latest/download/LanHostScout-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/launchd-lens/main/docs/assets/icon.png" width="28" alt=""> | **[LaunchdLens](https://github.com/turhe123/launchd-lens)** | Browse, create and schedule launchd jobs with a friendly editor instead of hand-writing property list files. | Lingon X | [Website](https://turhe123.github.io/launchd-lens/) · [Download](https://github.com/turhe123/launchd-lens/releases/latest/download/LaunchdLens-macOS.zip) |
 
 ## Display & Brightness
 
