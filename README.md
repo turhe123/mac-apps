@@ -1,4 +1,4 @@
-# 62 free, open-source Mac apps
+# 95 free, open-source Mac apps
 
 Native macOS utilities built in Swift and SwiftUI. Every app is free, MIT licensed, runs on macOS 14+, needs no account, sends no telemetry, and does one job well. Each one is a free alternative to a paid utility you may already know.
 
@@ -15,6 +15,15 @@ Native macOS utilities built in Swift and SwiftUI. Every app is free, MIT licens
 - [Audio](#audio) (12)
 - [Font Management](#font-management) (1)
 - [Input and Gestures](#input-and-gestures) (1)
+- [Text & Input](#text-input) (4)
+- [Screen & OCR](#screen-ocr) (6)
+- [Focus & Productivity](#focus-productivity) (2)
+- [Presentation & Cursor](#presentation-cursor) (4)
+- [Timers & Reminders](#timers-reminders) (3)
+- [Files & Conversion](#files-conversion) (7)
+- [Battery & Power](#battery-power) (3)
+- [Developer & Network](#developer-network) (2)
+- [Display & Brightness](#display-brightness) (2)
 
 
 ## Menu Bar Utility
@@ -127,6 +136,102 @@ Trackpad gestures, keys and input remapping.
 | | App | What it does | Free alternative to | Links |
 |---|---|---|---|---|
 | <img src="https://raw.githubusercontent.com/turhe123/trackpad-gesture-map/main/docs/assets/icon.png" width="28" alt=""> | **[TrackpadGestureMap](https://github.com/turhe123/trackpad-gesture-map)** | Map three and four finger trackpad swipes, taps and pinches to shortcuts, apps and actions, with per-app overrides. | BetterTouchTool | [Website](https://turhe123.github.io/trackpad-gesture-map/) · [Download](https://github.com/turhe123/trackpad-gesture-map/releases/latest/download/TrackpadGestureMap-macOS.zip) |
+
+## Text & Input
+
+Text & Input utilities.
+
+| | App | What it does | Free alternative to | Links |
+|---|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/turhe123/hyper-caps-key/main/docs/assets/icon.png" width="28" alt=""> | **[HyperCapsKey](https://github.com/turhe123/hyper-caps-key)** | Turn Caps Lock into a Hyper key that fires Command, Option, Control and Shift together for your shortcuts. | Hyperkey | [Website](https://turhe123.github.io/hyper-caps-key/) · [Download](https://github.com/turhe123/hyper-caps-key/releases/latest/download/HyperCapsKey-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/key-wipe-lock/main/docs/assets/icon.png" width="28" alt=""> | **[KeyWipeLock](https://github.com/turhe123/key-wipe-lock)** | Lock your keyboard and trackpad for a countdown so you can wipe them clean without typing nonsense. | Real Keyboard Cleaner | [Website](https://turhe123.github.io/key-wipe-lock/) · [Download](https://github.com/turhe123/key-wipe-lock/releases/latest/download/KeyWipeLock-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/mouse-button-mapper/main/docs/assets/icon.png" width="28" alt=""> | **[MouseButtonMapper](https://github.com/turhe123/mouse-button-mapper)** | Give every extra mouse button a job, with per-app profiles, scroll speed and pointer speed settings. | SteerMouse | [Website](https://turhe123.github.io/mouse-button-mapper/) · [Download](https://github.com/turhe123/mouse-button-mapper/releases/latest/download/MouseButtonMapper-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/text-tidy-window/main/docs/assets/icon.png" width="28" alt=""> | **[TextTidyWindow](https://github.com/turhe123/text-tidy-window)** | Paste messy text, toggle cleaners like fixing line breaks or smart quotes, and copy the tidy result. | TextSoap | [Website](https://turhe123.github.io/text-tidy-window/) · [Download](https://github.com/turhe123/text-tidy-window/releases/latest/download/TextTidyWindow-macOS.zip) |
+
+## Screen & OCR
+
+Screen & OCR utilities.
+
+| | App | What it does | Free alternative to | Links |
+|---|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/turhe123/region-gif-recorder/main/docs/assets/icon.png" width="28" alt=""> | **[RegionGifRecorder](https://github.com/turhe123/region-gif-recorder)** | Drag a region, record the screen, and save a small looping GIF with one hotkey and a live menu bar timer. | Gifox | [Website](https://turhe123.github.io/region-gif-recorder/) · [Download](https://github.com/turhe123/region-gif-recorder/releases/latest/download/RegionGifRecorder-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/screen-qr-reader/main/docs/assets/icon.png" width="28" alt=""> | **[ScreenQrReader](https://github.com/turhe123/screen-qr-reader)** | Drag over any QR code or barcode on screen and instantly copy, open or save what it contains. | QR Journal | [Website](https://turhe123.github.io/screen-qr-reader/) · [Download](https://github.com/turhe123/screen-qr-reader/releases/latest/download/ScreenQrReader-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/screen-span-ruler/main/docs/assets/icon.png" width="28" alt=""> | **[ScreenSpanRuler](https://github.com/turhe123/screen-span-ruler)** | Measure distances and gaps between any elements on screen in pixels using automatic edge detection. | Pixelsnap | [Website](https://turhe123.github.io/screen-span-ruler/) · [Download](https://github.com/turhe123/screen-span-ruler/releases/latest/download/ScreenSpanRuler-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/screen-text-translate/main/docs/assets/icon.png" width="28" alt=""> | **[ScreenTextTranslate](https://github.com/turhe123/screen-text-translate)** | Drag a box over foreign text anywhere on screen and see the translation right there in a floating card. | OCR Quick Translate | [Website](https://turhe123.github.io/screen-text-translate/) · [Download](https://github.com/turhe123/screen-text-translate/releases/latest/download/ScreenTextTranslate-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/scroll-stitch-shot/main/docs/assets/icon.png" width="28" alt=""> | **[ScrollStitchShot](https://github.com/turhe123/scroll-stitch-shot)** | Drag a region, let it auto-scroll, and get one tall stitched screenshot of a long page or document. | ScrollSnap | [Website](https://turhe123.github.io/scroll-stitch-shot/) · [Download](https://github.com/turhe123/scroll-stitch-shot/releases/latest/download/ScrollStitchShot-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/swatch-snatcher/main/docs/assets/icon.png" width="28" alt=""> | **[SwatchSnatcher](https://github.com/turhe123/swatch-snatcher)** | Pick any color on screen with a magnifier loupe, then copy it as HEX, RGB or SwiftUI code and keep a palette. | Sip | [Website](https://turhe123.github.io/swatch-snatcher/) · [Download](https://github.com/turhe123/swatch-snatcher/releases/latest/download/SwatchSnatcher-macOS.zip) |
+
+## Focus & Productivity
+
+Focus & Productivity utilities.
+
+| | App | What it does | Free alternative to | Links |
+|---|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/turhe123/focus-window-dimmer/main/docs/assets/icon.png" width="28" alt=""> | **[FocusWindowDimmer](https://github.com/turhe123/focus-window-dimmer)** | Dim everything behind the active window so your eyes and attention stay on the one thing you are working on. | HazeOver | [Website](https://turhe123.github.io/focus-window-dimmer/) · [Download](https://github.com/turhe123/focus-window-dimmer/releases/latest/download/FocusWindowDimmer-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/shortcut-peek-overlay/main/docs/assets/icon.png" width="28" alt=""> | **[ShortcutPeekOverlay](https://github.com/turhe123/shortcut-peek-overlay)** | Hold Command for a moment and see every menu shortcut of the frontmost app in a searchable overlay. | KeyCue | [Website](https://turhe123.github.io/shortcut-peek-overlay/) · [Download](https://github.com/turhe123/shortcut-peek-overlay/releases/latest/download/ShortcutPeekOverlay-macOS.zip) |
+
+## Presentation & Cursor
+
+Presentation & Cursor utilities.
+
+| | App | What it does | Free alternative to | Links |
+|---|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/turhe123/face-bubble-cam/main/docs/assets/icon.png" width="28" alt=""> | **[FaceBubbleCam](https://github.com/turhe123/face-bubble-cam)** | A round, always-on-top live webcam bubble you can drag anywhere to check yourself or overlay on a screen recording. | Mirror Magnet | [Website](https://turhe123.github.io/face-bubble-cam/) · [Download](https://github.com/turhe123/face-bubble-cam/releases/latest/download/FaceBubbleCam-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/key-cap-overlay/main/docs/assets/icon.png" width="28" alt=""> | **[KeyCapOverlay](https://github.com/turhe123/key-cap-overlay)** | Show every key and shortcut you press as clean keycaps floating on screen for demos, tutorials and recordings. | Keystroke Pro | [Website](https://turhe123.github.io/key-cap-overlay/) · [Download](https://github.com/turhe123/key-cap-overlay/releases/latest/download/KeyCapOverlay-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/pointer-spotlight-glow/main/docs/assets/icon.png" width="28" alt=""> | **[PointerSpotlightGlow](https://github.com/turhe123/pointer-spotlight-glow)** | Spotlight your pointer with a dimmed screen, highlight ring and click ripples for demos and screen shares. | Mouseposé | [Website](https://turhe123.github.io/pointer-spotlight-glow/) · [Download](https://github.com/turhe123/pointer-spotlight-glow/releases/latest/download/PointerSpotlightGlow-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/screen-ink-pen/main/docs/assets/icon.png" width="28" alt=""> | **[ScreenInkPen](https://github.com/turhe123/screen-ink-pen)** | Draw arrows, boxes and freehand ink right on top of your screen during demos and calls, then wipe it clean. | Presentify | [Website](https://turhe123.github.io/screen-ink-pen/) · [Download](https://github.com/turhe123/screen-ink-pen/releases/latest/download/ScreenInkPen-macOS.zip) |
+
+## Timers & Reminders
+
+Timers & Reminders utilities.
+
+| | App | What it does | Free alternative to | Links |
+|---|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/turhe123/break-nudge-timer/main/docs/assets/icon.png" width="28" alt=""> | **[BreakNudgeTimer](https://github.com/turhe123/break-nudge-timer)** | Gentle micro-breaks and long breaks that dim your screen, count down and remind you to rest your eyes. | Time Out | [Website](https://turhe123.github.io/break-nudge-timer/) · [Download](https://github.com/turhe123/break-nudge-timer/releases/latest/download/BreakNudgeTimer-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/pomodoro-pace/main/docs/assets/icon.png" width="28" alt=""> | **[PomodoroPace](https://github.com/turhe123/pomodoro-pace)** | A menu bar pomodoro timer with task labels, daily session counts and a gentle chime when each block ends. | Be Focused Pro | [Website](https://turhe123.github.io/pomodoro-pace/) · [Download](https://github.com/turhe123/pomodoro-pace/releases/latest/download/PomodoroPace-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/zone-clock-bar/main/docs/assets/icon.png" width="28" alt=""> | **[ZoneClockBar](https://github.com/turhe123/zone-clock-bar)** | A menu bar calendar with world clocks, upcoming events and a time-zone slider for planning calls across cities. | Dato | [Website](https://turhe123.github.io/zone-clock-bar/) · [Download](https://github.com/turhe123/zone-clock-bar/releases/latest/download/ZoneClockBar-macOS.zip) |
+
+## Files & Conversion
+
+Files & Conversion utilities.
+
+| | App | What it does | Free alternative to | Links |
+|---|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/turhe123/batch-name-forge/main/docs/assets/icon.png" width="28" alt=""> | **[BatchNameForge](https://github.com/turhe123/batch-name-forge)** | Drop a pile of files and rename them all with stackable rules and a live before and after preview. | Better Rename | [Website](https://turhe123.github.io/batch-name-forge/) · [Download](https://github.com/turhe123/batch-name-forge/releases/latest/download/BatchNameForge-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/cutout-drop-zone/main/docs/assets/icon.png" width="28" alt=""> | **[CutoutDropZone](https://github.com/turhe123/cutout-drop-zone)** | Drop a photo and get back a transparent-background cutout of its subject in seconds, fully offline. | Droply | [Website](https://turhe123.github.io/cutout-drop-zone/) · [Download](https://github.com/turhe123/cutout-drop-zone/releases/latest/download/CutoutDropZone-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/disk-sunburst/main/docs/assets/icon.png" width="28" alt=""> | **[DiskSunburst](https://github.com/turhe123/disk-sunburst)** | Scan a folder or drive and see what eats your space in an interactive sunburst chart, then reveal or trash it. | DaisyDisk | [Website](https://turhe123.github.io/disk-sunburst/) · [Download](https://github.com/turhe123/disk-sunburst/releases/latest/download/DiskSunburst-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/drop-media-converter/main/docs/assets/icon.png" width="28" alt=""> | **[DropMediaConverter](https://github.com/turhe123/drop-media-converter)** | Drop videos, audio or images and convert them to common formats with simple presets and a progress list. | Permute | [Website](https://turhe123.github.io/drop-media-converter/) · [Download](https://github.com/turhe123/drop-media-converter/releases/latest/download/DropMediaConverter-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/pdf-shrink-drop/main/docs/assets/icon.png" width="28" alt=""> | **[PdfShrinkDrop](https://github.com/turhe123/pdf-shrink-drop)** | Drop big PDFs onto the window or Dock icon and get smaller copies with a size preset and before and after sizes. | PDF Squeezer | [Website](https://turhe123.github.io/pdf-shrink-drop/) · [Download](https://github.com/turhe123/pdf-shrink-drop/releases/latest/download/PdfShrinkDrop-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/photo-meta-scrub/main/docs/assets/icon.png" width="28" alt=""> | **[PhotoMetaScrub](https://github.com/turhe123/photo-meta-scrub)** | Drop photos to see their hidden EXIF, GPS and camera data, then strip it all before you share. | Metapho | [Website](https://turhe123.github.io/photo-meta-scrub/) · [Download](https://github.com/turhe123/photo-meta-scrub/releases/latest/download/PhotoMetaScrub-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/watch-folder-ocr/main/docs/assets/icon.png" width="28" alt=""> | **[WatchFolderOcr](https://github.com/turhe123/watch-folder-ocr)** | Watch a folder and automatically turn every dropped scan or image into a searchable PDF with a text layer. | OnDevice OCR Pro | [Website](https://turhe123.github.io/watch-folder-ocr/) · [Download](https://github.com/turhe123/watch-folder-ocr/releases/latest/download/WatchFolderOcr-macOS.zip) |
+
+## Battery & Power
+
+Battery & Power utilities.
+
+| | App | What it does | Free alternative to | Links |
+|---|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/turhe123/battery-health-lens/main/docs/assets/icon.png" width="28" alt=""> | **[BatteryHealthLens](https://github.com/turhe123/battery-health-lens)** | See your battery's cycle count, true capacity and wear in a menu bar popover, with a daily health history. | Battery Health 3 | [Website](https://turhe123.github.io/battery-health-lens/) · [Download](https://github.com/turhe123/battery-health-lens/releases/latest/download/BatteryHealthLens-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/charge-level-chime/main/docs/assets/icon.png" width="28" alt=""> | **[ChargeLevelChime](https://github.com/turhe123/charge-level-chime)** | Get a chime and a banner when your battery hits the low or full level you chose, so you plug in or unplug on time. | Battery Charge Sound Alarm | [Website](https://turhe123.github.io/charge-level-chime/) · [Download](https://github.com/turhe123/charge-level-chime/releases/latest/download/ChargeLevelChime-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/stay-awake-timer/main/docs/assets/icon.png" width="28" alt=""> | **[StayAwakeTimer](https://github.com/turhe123/stay-awake-timer)** | Keep your Mac awake for a chosen time, until a download ends, or while certain apps run, from the menu bar. | Lungo | [Website](https://turhe123.github.io/stay-awake-timer/) · [Download](https://github.com/turhe123/stay-awake-timer/releases/latest/download/StayAwakeTimer-macOS.zip) |
+
+## Developer & Network
+
+Developer & Network utilities.
+
+| | App | What it does | Free alternative to | Links |
+|---|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/turhe123/dev-scrap-toolbox/main/docs/assets/icon.png" width="28" alt=""> | **[DevScrapToolbox](https://github.com/turhe123/dev-scrap-toolbox)** | An offline toolbox of everyday developer converters like JSON, [removed], JWT, hashes and timestamps, fed from your clipboard. | DevUtils | [Website](https://turhe123.github.io/dev-scrap-toolbox/) · [Download](https://github.com/turhe123/dev-scrap-toolbox/releases/latest/download/DevScrapToolbox-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/lan-host-scout/main/docs/assets/icon.png" width="28" alt=""> | **[LanHostScout](https://github.com/turhe123/lan-host-scout)** | Scan your local network and list every device with its IP, name, MAC address, vendor hint and open common ports. | LanScan | [Website](https://turhe123.github.io/lan-host-scout/) · [Download](https://github.com/turhe123/lan-host-scout/releases/latest/download/LanHostScout-macOS.zip) |
+
+## Display & Brightness
+
+Display & Brightness utilities.
+
+| | App | What it does | Free alternative to | Links |
+|---|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/turhe123/resolution-hopper/main/docs/assets/icon.png" width="28" alt=""> | **[ResolutionHopper](https://github.com/turhe123/resolution-hopper)** | Switch any display to a saved resolution and refresh rate from the menu bar, or let a profile do it for you. | SwitchResX | [Website](https://turhe123.github.io/resolution-hopper/) · [Download](https://github.com/turhe123/resolution-hopper/releases/latest/download/ResolutionHopper-macOS.zip) |
+| <img src="https://raw.githubusercontent.com/turhe123/xdr-boost-bar/main/docs/assets/icon.png" width="28" alt=""> | **[XdrBoostBar](https://github.com/turhe123/xdr-boost-bar)** | Unlock the extra HDR headroom of your MacBook Pro or XDR display for brighter everyday content with a slider. | Vivid | [Website](https://turhe123.github.io/xdr-boost-bar/) · [Download](https://github.com/turhe123/xdr-boost-bar/releases/latest/download/XdrBoostBar-macOS.zip) |
 
 ## How these were built
 
