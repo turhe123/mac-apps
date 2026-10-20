@@ -23,7 +23,7 @@ a{color:inherit}
 .container{max-width:1180px;margin:0 auto;padding:0 16px}
 header{padding:72px 0 28px;text-align:center}
 .eyebrow{display:inline-block;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--violet-2);border:1px solid var(--line-2);border-radius:999px;padding:6px 14px;background:var(--glass)}
-h1{font-family:var(--font-display);font-size:clamp(38px,7vw,72px);letter-spacing:-.03em;line-height:1.02;margin:20px 0 14px}
+h1{font-family:var(--font-display);font-size:clamp(34px,9vw,72px);overflow-wrap:anywhere;letter-spacing:-.03em;line-height:1.02;margin:20px 0 14px}
 h1 em{font-style:normal;background:var(--grad-text);-webkit-background-clip:text;background-clip:text;color:transparent}
 .sub{max-width:720px;margin:0 auto;color:var(--fg-2);font-size:clamp(16px,2.2vw,19px)}
 .stats{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:26px 0 0}
@@ -31,6 +31,7 @@ h1 em{font-style:normal;background:var(--grad-text);-webkit-background-clip:text
 .stat b{color:var(--fg);font-weight:600}
 .toolbar{position:sticky;top:0;z-index:5;background:rgba(11,11,16,.82);backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid var(--line);padding:12px 0}
 .toolbar-inner{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.chips{display:flex;flex-wrap:wrap;gap:8px;min-width:0}
 .chip{font:inherit;font-size:13px;color:var(--fg-2);background:var(--glass);border:1px solid var(--line);border-radius:999px;padding:7px 12px;cursor:pointer}
 .chip span{color:var(--muted);margin-left:4px}
 .chip:hover{border-color:var(--line-2);color:var(--fg)}
@@ -40,11 +41,12 @@ h1 em{font-style:normal;background:var(--grad-text);-webkit-background-clip:text
 section.cat{padding:40px 0 8px}
 section.cat h2{font-family:var(--font-display);font-size:30px;letter-spacing:-.02em;margin:0 0 6px}
 section.cat p{margin:0 0 20px;color:var(--muted)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
-.card{display:flex;flex-direction:column;background:var(--bg-2);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;transition:transform .25s cubic-bezier(.22,1,.36,1),border-color .25s}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:18px}
+.grid>*{min-width:0}
+.card{display:flex;flex-direction:column;min-width:0;max-width:100%;background:var(--bg-2);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;transition:transform .25s cubic-bezier(.22,1,.36,1),border-color .25s}
 .card:hover{transform:translateY(-3px);border-color:var(--line-2)}
-.shot{aspect-ratio:16/10;background:radial-gradient(400px 200px at 50% 110%,rgba(124,58,237,.25),transparent),var(--bg-3);display:flex;align-items:center;justify-content:center;padding:18px;border-bottom:1px solid var(--line)}
-.shot img{max-width:100%;max-height:100%;object-fit:contain;filter:drop-shadow(0 18px 30px rgba(0,0,0,.55));border-radius:8px}
+.shot{aspect-ratio:16/10;min-width:0;overflow:hidden;background:radial-gradient(400px 200px at 50% 110%,rgba(124,58,237,.25),transparent),var(--bg-3);display:flex;align-items:center;justify-content:center;padding:18px;border-bottom:1px solid var(--line)}
+.shot img{width:auto;height:auto;max-width:100%;max-height:100%;min-width:0;object-fit:contain;filter:drop-shadow(0 18px 30px rgba(0,0,0,.55));border-radius:8px}
 .body{padding:16px 16px 14px;display:flex;flex-direction:column;gap:10px;flex:1}
 .title{display:flex;align-items:center;gap:10px}
 .title img{width:30px;height:30px;border-radius:7px;flex:none}
@@ -61,7 +63,24 @@ section.cat p{margin:0 0 20px;color:var(--muted)}
 footer{margin-top:60px;border-top:1px solid var(--line);padding:28px 0 48px;color:var(--muted);font-size:14px}
 footer .inner{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
 footer a{color:var(--fg-2);text-decoration:none;margin-left:16px}footer a:hover{color:var(--fg)}
-@media (max-width:640px){header{padding-top:48px}.search{margin-left:0;width:100%}footer a{margin:0 14px 0 0}}
+html,body{max-width:100%;overflow-x:hidden}
+@media (max-width:640px){
+  header{padding-top:44px}
+  .container{padding:0 14px}
+  .toolbar{padding:10px 0}
+  .toolbar-inner{flex-direction:column;align-items:stretch;gap:8px}
+  .search{margin-left:0;width:100%;min-width:0;order:-1;font-size:16px}
+  .chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;margin:0 -14px;padding:0 14px 2px}
+  .chips::-webkit-scrollbar{display:none}
+  .chip{flex:none;white-space:nowrap}
+  section.cat{padding:28px 0 4px}
+  section.cat h2{font-size:24px}
+  .shot{padding:12px;aspect-ratio:4/3}
+  .title h3{font-size:17px}
+  .tag{font-size:14px}
+  .note{margin-top:32px;padding:14px 16px}
+  footer a{margin:0 14px 0 0}
+}
 </style>
 </head>
 <body>
@@ -71,7 +90,7 @@ footer a{color:var(--fg-2);text-decoration:none;margin-left:16px}footer a:hover{
   <p class="sub">Clipboard managers, window managers, menu bar tools, system monitors and audio utilities. No accounts, no subscriptions, no telemetry. Each one is a free alternative to a paid app you may already know.</p>
   <div class="stats"><span class="stat"><b>62</b> apps</span><span class="stat"><b>macOS 14+</b></span><span class="stat"><b>0</b> trackers</span><span class="stat"><b>MIT</b> license</span><span class="stat"><a href="https://ko-fi.com/leodavidai" style="text-decoration:none">Support on Ko-fi ❤️</a></span></div>
 </header>
-<div class="toolbar"><div class="container toolbar-inner"><button class="chip active" data-cat="all">All <span>62</span></button><button class="chip" data-cat="Menu Bar Utility">Menu Bar Utility <span>12</span></button><button class="chip" data-cat="Clipboard">Clipboard <span>12</span></button><button class="chip" data-cat="Window Management">Window Management <span>12</span></button><button class="chip" data-cat="System Monitoring">System Monitoring <span>12</span></button><button class="chip" data-cat="Audio">Audio <span>12</span></button><button class="chip" data-cat="Font Management">Font Management <span>1</span></button><button class="chip" data-cat="Input and Gestures">Input and Gestures <span>1</span></button><input class="search" type="search" placeholder="Search apps or paid alternatives…" aria-label="Search"></div></div>
+<div class="toolbar"><div class="container toolbar-inner"><div class="chips"><button class="chip active" data-cat="all">All <span>62</span></button><button class="chip" data-cat="Menu Bar Utility">Menu Bar Utility <span>12</span></button><button class="chip" data-cat="Clipboard">Clipboard <span>12</span></button><button class="chip" data-cat="Window Management">Window Management <span>12</span></button><button class="chip" data-cat="System Monitoring">System Monitoring <span>12</span></button><button class="chip" data-cat="Audio">Audio <span>12</span></button><button class="chip" data-cat="Font Management">Font Management <span>1</span></button><button class="chip" data-cat="Input and Gestures">Input and Gestures <span>1</span></button></div><input class="search" type="search" placeholder="Search apps or paid alternatives…" aria-label="Search"></div></div>
 <main class="container" id="main"></main>
 <p class="empty container" id="empty">No app matches that search.</p>
 <div class="container"><div class="note">Install: download the <code>.zip</code>, unzip, drag the app to Applications. The apps aren't notarized yet, so on first launch right-click the app and choose <b>Open</b>. Every app has a Support / Donate button; none of them phone home. All of them were written by Claude Code from a spec, clean-room, with the full source on GitHub. <a href="https://github.com/turhe123/mac-apps#how-these-were-built">How and why</a>.</div></div>
