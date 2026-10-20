@@ -112,7 +112,14 @@ Volume, devices, microphones, noise and sound effects.
 
 ## How these were built
 
-All 60 apps come out of AppFactory, an automated pipeline that researches a paid utility, writes a spec, builds a native Swift app offline, screenshots it, and publishes the repo, release and landing page. Each app is a complete, readable codebase of roughly 600 to 1,200 lines of Swift.
+Every app here was written by [Claude Code](https://claude.com/claude-code) inside an automated pipeline called AppFactory. The pipeline researches a paid utility, writes a plain-English spec, hands that spec to Claude Code in an empty Xcode project with web access turned off, and lets it build and fix the app until it compiles. Then it screenshots the app and publishes the repo, release and landing page. No code, binaries or assets from any commercial app are used. Each app is a clean-room reimplementation of a feature set, not a copy.
+
+What that means in practice:
+
+- Every repo is full source under MIT. Read it before you run it.
+- No analytics, no third-party dependencies, only Apple frameworks. No app phones home.
+- Ad-hoc signed and not notarized, which is why Gatekeeper warns on first launch.
+- These have had less human review than hand-written apps. Expect rough edges, and open an issue when you hit one.
 
 ## Support
 
