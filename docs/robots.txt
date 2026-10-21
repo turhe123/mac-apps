@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://turhe123.github.io/mac-apps/sitemap.xml
